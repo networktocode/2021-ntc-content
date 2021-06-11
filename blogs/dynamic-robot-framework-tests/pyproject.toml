@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2021-blogs-dynamic-robot-framework-tests"
+version = "0.0.1"
+description = "NTC Blog Posts Detailing Writing Robot Framework Tests in Python"
+authors = ["Bryan Culver <bryan.culver@networktocode.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+robotframework = "^4.0.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
